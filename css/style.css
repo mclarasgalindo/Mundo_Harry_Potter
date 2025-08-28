@@ -46,12 +46,16 @@ h2 {
   padding-bottom: 5px;
 }
 
+
 .card {
   background-color: #1a1a1a;
   border-radius: 10px;
   padding: 20px;
   margin: 15px 0;
   transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .card:hover {
@@ -59,6 +63,11 @@ h2 {
   box-shadow: 0 0 15px #ffd700;
 }
 
+.img-left {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
 footer {
   background-color: #111;
   text-align: center;
@@ -66,4 +75,7 @@ footer {
   margin-top: 20px;
   font-size: 14px;
   color: #bbb;
+}
+body {
+  cursor: url(/img/varinha-removebg-preview.png), auto;
 }
